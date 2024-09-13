@@ -1,0 +1,16 @@
+name: jupyter
+
+channels:
+- conda-forge
+
+dependencies:
+- pip
+- python>=3.10
+- pip:
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - requests
+  - msprime
